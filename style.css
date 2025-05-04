@@ -1,18 +1,18 @@
 /* Customization Variables */
 :root {
     /* Colors */
-    --color-page-background: #50AFC9;
-    --color-main-container-background: #FF5B70;
-    --color-inner-container-background: #FFF7F4;
-    --color-border: #9E0E2B;
-    --color-button-background: #FFF;
-    --color-heading-text: #FFF;
-    --color-button-text: #9E0E2B;
-    --color-message-text: #9E0E2B;
+    --color-page-background: #6d9c6f;
+    --color-main-container-background: #e8b274;
+    --color-inner-container-background: #eee4c1;
+    --color-border: #5d4a3c;
+    --color-button-background: #e8b274;
+    --color-heading-text: #5d4a3c;
+    --color-button-text: #5d4a3c;
+    --color-message-text: #5d4a3c;
     
     /* Images */
-    --image-path-background: url('assets/main-bg.png');
-    --image-path-content: url('assets/image-content/image-1.png');
+    --image-path-background: url('assets/main-bg.jpg');
+    --image-path-content: url('assets/image-content/image1.png');
     
     /* Fonts */
     --font-family-main: "Pixelify Sans", sans-serif;
