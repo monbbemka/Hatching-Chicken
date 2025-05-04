@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- CUSTOMIZE: Change the page title -->
   <title> Change</title>
-  
+
   <!-- CUSTOMIZE: Update the favicon path/filename as needed -->
   <link rel="icon" type="image/png" href="./assets/favicon.png" sizes="32x32">
-  
+
   <!-- Link to your stylesheet - don't change unless you rename style.css -->
   <link rel="stylesheet" href="style.css">
-  
+
   <!-- CUSTOMIZE: You can add Google Fonts or other resources here -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="container">
     <header>
       <!-- CUSTOMIZE: Change the header text -->
       <h1>What's happening?? :o</h1>
-      
+
       <div class="shrink-close-icons">
         <!-- CUSTOMIZE: Update icon paths/filenames as needed -->
-         
-        <img src="./assets/shrink-icon.png" alt="Shrink Icon" class="shrink-icon" />
-        <img src="./assets/close-icon.png" alt="Close Icon" class="shrink-icon" />
-      </div> 
+        <button id="repeat-button" >
+          <img src="./assets/repeat-icon.png" alt="Repeat Icon" class="shrink-icon" />
+        </button>
+        <button id="shrink-button">
+          <img src="./assets/shrink-icon.png" alt="Shrink Icon" class="shrink-icon" />
+        </button>
+        <button id="close-button">
+          <img src="./assets/close-icon.png" alt="Close Icon" class="shrink-icon" />
+        </button>
+      </div>
     </header>
-    
+
     <div class="inner-container">
       <!-- The image is loaded via CSS from the --image-path-content variable -->
       <div class="image-content"></div>
-      
+
       <!-- CUSTOMIZE: Change the button text -->
       <button id="main-button">Hatch!</button>
-      
+      <button id="sorry-button"> Sorry :( </button>
+
       <!-- CUSTOMIZE: Change the final message text -->
       <div class="final-message">Change is good!</div>
     </div>
@@ -47,4 +56,5 @@
   <!-- Link to your JavaScript - don't change unless you rename index.js -->
   <script src="index.js"></script>
 </body>
+
 </html>

@@ -104,6 +104,19 @@
     align-items: center;
     gap: var(--gap-icons);
   }
+
+  .shrink-close-icons button {
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+  }
+
+  .shrink-close-icons button:hover{
+    transform: scale(1.05)
+  }
   
   /* Icons */
   .shrink-icon {
@@ -131,7 +144,7 @@
   }
   
   /* Main Button */
-  #main-button {
+  #main-button, #sorry-button {
     position: relative;
     height: 16.5%;
     aspect-ratio: 175 / 44;
@@ -151,8 +164,12 @@
     line-height: normal;
     transition: transform 0.2s ease;
   }
+
+  #sorry-button {
+    display: none;
+  }
   
-  #main-button:hover {
+  #main-button:hover, #sorry-button:hover {
     transform: scale(1.05);
   }
   
@@ -182,4 +199,5 @@
     h1 {
       font-size: calc(var(--font-size-large) - 0.25rem);
     }
+
   }
