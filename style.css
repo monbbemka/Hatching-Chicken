@@ -1,3 +1,7 @@
+@font-face {
+  font-family: rainyhearts;
+  src: url('./assets/rainyhearts/rainyhearts.ttf');
+}
 /* Customization Variables */
 :root {
     /* Colors */
@@ -15,9 +19,10 @@
     --image-path-content: url('assets/image-content/image1.png');
     
     /* Fonts */
-    --font-family-main: "Pixelify Sans", sans-serif;
-    --font-size-large: 1.75rem;
-    --font-size-medium: 1.5635rem;
+
+    --font-family-main: "rainyhearts";
+    --font-size-large: 2.2rem;
+    --font-size-medium: 1.9rem;
     
     /* Border Radius */
     --border-radius: 0.31269rem;
@@ -120,8 +125,8 @@
   
   /* Icons */
   .shrink-icon {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
     border-radius: 2px;
     opacity: 1;
